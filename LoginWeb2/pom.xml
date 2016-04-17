@@ -218,15 +218,13 @@
                 <version>9.3.0.M2</version>
                 <configuration>
 
-                    <!--
+                    
 
-                    POISTA NÄMÄ KOMMENTEISTA
-                    jos haluat että jetty käynnistää sovelluksen uudelleen
-                    muutosten yhteydessä
+                    
 
                     <scanIntervalSeconds>5</scanIntervalSeconds>
                     <reload>automatic</reload>
-                    -->
+                   
                     <systemProperties>
                         <systemProperty>
                             <name>jetty.port</name>
